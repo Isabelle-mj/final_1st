@@ -160,24 +160,24 @@ if not filtered_customers.empty:
         # 첫 번째 사진: hm1.png
         if os.path.exists("hm1.png"):
             st.markdown('<div class="styled-image">', unsafe_allow_html=True)
-            st.image("hm1.png", use_container_width=True)
+            st.image("https://github.com/Isabelle-mj/final_1st/blob/b6e1f22e0982335a841bfe0e07ad7a3771993a4f/.github/hm1.png", use_container_width=True)
             st.markdown('</div>', unsafe_allow_html=True)
         # 두 번째 사진 (hm (1) 바로 아래): hm4.png
         if os.path.exists("hm4.png"):
             st.markdown('<div class="styled-image">', unsafe_allow_html=True)
-            st.image("hm4.png", use_container_width=True)
+            st.image("https://github.com/Isabelle-mj/final_1st/blob/b6e1f22e0982335a841bfe0e07ad7a3771993a4f/.github/hm4.png", use_container_width=True)
             st.markdown('</div>', unsafe_allow_html=True)
             
     with img_col2:
         if os.path.exists("hm2.png"):
             st.markdown('<div class="styled-image">', unsafe_allow_html=True)
-            st.image("hm2.png", use_container_width=True)
+            st.image("https://github.com/Isabelle-mj/final_1st/blob/b6e1f22e0982335a841bfe0e07ad7a3771993a4f/.github/hm2.png", use_container_width=True)
             st.markdown('</div>', unsafe_allow_html=True)
             
     with img_col3:
         if os.path.exists("hm3.png"):
             st.markdown('<div class="styled-image">', unsafe_allow_html=True)
-            st.image("hm3.png", use_container_width=True)
+            st.image("https://github.com/Isabelle-mj/final_1st/blob/b6e1f22e0982335a841bfe0e07ad7a3771993a4f/.github/hm3.png", use_container_width=True)
             st.markdown('</div>', unsafe_allow_html=True)
 
 else:
@@ -186,4 +186,5 @@ else:
 st.divider()
 
 st.caption("H&M Data Science Project | GNN-based Cold Start Recommendation System")
+
 
