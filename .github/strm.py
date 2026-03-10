@@ -160,7 +160,7 @@ if not filtered_customers.empty:
         # 첫 번째 사진: hm1.png
         if os.path.exists("hm1.png"):
             st.markdown('<div class="styled-image">', unsafe_allow_html=True)
-            st.image("hm (1).png", use_container_width=True)
+            st.image("hm1.png", use_container_width=True)
             st.markdown('</div>', unsafe_allow_html=True)
         # 두 번째 사진 (hm (1) 바로 아래): hm4.png
         if os.path.exists("hm4.png"):
@@ -186,3 +186,4 @@ else:
 st.divider()
 
 st.caption("H&M Data Science Project | GNN-based Cold Start Recommendation System")
+
