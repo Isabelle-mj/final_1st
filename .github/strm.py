@@ -157,31 +157,32 @@ if not filtered_customers.empty:
     img_col1, img_col2, img_col3 = st.columns(3)
     
     with img_col1:
-        # 첫 번째 사진: hm (1).png
-        if os.path.exists("hm (1).png"):
+        # 첫 번째 사진: hm1.png
+        if os.path.exists("hm1.png"):
             st.markdown('<div class="styled-image">', unsafe_allow_html=True)
             st.image("hm (1).png", use_container_width=True)
             st.markdown('</div>', unsafe_allow_html=True)
-        # 두 번째 사진 (hm (1) 바로 아래): hm (4).png
-        if os.path.exists("hm (4).png"):
+        # 두 번째 사진 (hm (1) 바로 아래): hm4.png
+        if os.path.exists("hm4.png"):
             st.markdown('<div class="styled-image">', unsafe_allow_html=True)
-            st.image("hm (4).png", use_container_width=True)
+            st.image("hm4.png", use_container_width=True)
             st.markdown('</div>', unsafe_allow_html=True)
             
     with img_col2:
-        if os.path.exists("hm (2).png"):
+        if os.path.exists("hm2.png"):
             st.markdown('<div class="styled-image">', unsafe_allow_html=True)
-            st.image("hm (2).png", use_container_width=True)
+            st.image("hm2.png", use_container_width=True)
             st.markdown('</div>', unsafe_allow_html=True)
             
     with img_col3:
-        if os.path.exists("hm (3).png"):
+        if os.path.exists("hm3.png"):
             st.markdown('<div class="styled-image">', unsafe_allow_html=True)
-            st.image("hm (3).png", use_container_width=True)
+            st.image("hm3.png", use_container_width=True)
             st.markdown('</div>', unsafe_allow_html=True)
 
 else:
     st.error("데이터가 없습니다.")
 
 st.divider()
+
 st.caption("H&M Data Science Project | GNN-based Cold Start Recommendation System")
